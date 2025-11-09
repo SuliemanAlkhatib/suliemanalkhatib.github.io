@@ -1,0 +1,210 @@
+@font-face {
+    font-family: roboto-italic;
+    src: url(images/Roboto_Condensed-LightItalic.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto-italic;
+    
+    background-color: hsl(0, 0%, 84%);
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.wall{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    font-weight:bolder;
+    
+    background-image: url(images/wall.jpg);
+    margin-top: 0px;
+    
+}
+.wall h1{
+    color: black;
+    margin: 0;
+}
+.nav{
+    height: 50px;
+    background-color: rgb(0, 44, 165);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav a{
+    font-size: 19px;
+    height: 100%;
+    width: 23%;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+.nav a:hover{
+    background-color: rgb(15, 111, 255);
+    border: 1px solid black;
+    animation-name: hover;
+    animation-duration: 2s;
+}
+.chapters{
+    margin: 35px;
+    display: flex;
+    width: 90%;
+    
+    margin-left: 10%;
+    
+}
+.chapters a img{
+   height: 77%;
+   width: 100%;
+   
+}
+.chapters a{
+   background-color: hsl(0, 0%, 100%);
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   margin-left: 2%;
+   width: 25%;
+   height: 100%;
+   margin-right: 2%;
+   font-size: 25px;
+   border: 2px solid ;
+}
+.chapters a:hover{
+    box-shadow: 5px 5px 0px black;
+    animation-name: hover;
+    animation-duration: 1s;
+}
+
+.chapters1{
+    margin: 35px;
+    display: flex;
+    width: 90%;
+    
+    margin-left: 10%;
+    
+    
+}
+.chapters1 a img{
+   height: 77%;
+   width: 100%;
+   
+}
+.chapters1 a{
+   background-color: hsl(0, 0%, 100%);
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   margin-left: 2%;
+   width: 25%;
+   height: 100%;
+   margin-right: 2%;
+   font-size: 25px;
+   border: 2px solid ;
+}
+.chapters1 a:hover{
+    box-shadow: 5px 5px 0px black;
+    animation-name: hover;
+    animation-duration: 1s;
+}
+.tests >a{
+    text-align: center;
+    display: block;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 50px;
+    width: 50%;
+    height: 70px;
+    border-radius: 25px;
+    margin-left: 25%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.tests a:hover{
+    box-shadow: 5px 5px 1px rgb(41, 2, 2);
+    animation-name: scaler;
+    animation-duration: 2s;
+}
+.tests button:hover{
+    box-shadow: 9px 9px 5px rgb(41, 2, 2);
+    animation-name: scaler;
+    animation-duration: 1s;
+}
+.m_q{
+    margin-top: 20px;
+}
+.m_q a{
+    
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 0px;
+    width: 30%;
+    height: 30px;
+    text-decoration: none;
+    margin-left: 35%;
+    border: 2px solid;
+    border-radius: 6px;
+    color: black;
+}
+.m_t{
+    margin-top: 20px;
+}
+.m_t a{
+    
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 1px;
+    width: 30%;
+    height: 30px;
+    text-decoration: none;
+    margin-left: 35%;
+    border: 2px solid;
+    border-radius: 6px;
+    color: black;
+}
+.tests button{
+    
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 30px;
+    width: 50%;
+    height: 50px;
+    text-decoration: none;
+    margin-left: 25%;
+    border: 2px solid;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.quiz:hover .m_q a{
+    display: block;
+}
+.test:hover .m_t a{
+    display: block;
+}
+@keyframes scaler{
+    50%{transform: scale(1.05);}
+}
+
+@keyframes hover{
+    50%{transform: translate(-5px,-5px);}
+}
