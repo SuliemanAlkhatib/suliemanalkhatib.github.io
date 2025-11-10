@@ -31,14 +31,14 @@ body{
     margin: 0;
 }
 .nav{
-    height:10px;
+    height:50px;
     background-color: rgb(0, 44, 165);
     display: flex;
     flex-direction: row-reverse;
 }
 
 .nav a{
-    font-size: 19px;
+    font-size: 23px;
     height: 100%;
     width: 23%;
     text-align: center;
@@ -55,16 +55,17 @@ body{
     animation-duration: 2s;
 }
 .chapters{
-    margin: 35px;
+    margin-top: 35px;
+    
     display: flex;
     width: 90%;
-    height: 30%;
+    height: 60%;
     
-    margin-left: 10%;
+    margin-left: 15%;
     
 }
 .chapters a img{
-   height: 77%;
+   height: 74%;
    width: 100%;
    
 }
@@ -73,10 +74,10 @@ body{
    text-align: center;
    text-decoration: none;
    color: black;
-   margin-left: 2%;
+   margin-left: 0%;
    width: 25%;
-   height: 100%;
-   margin-right: 2%;
+   height: 90%;
+   margin-right: 25%;
    font-size: 25px;
    border: 2px solid ;
 }
@@ -90,7 +91,7 @@ body{
     margin: 35px;
     display: flex;
     width: 90%;
-    height: 30%;
+    height: 60%;
     margin-left: 10%;
     
     
@@ -125,7 +126,7 @@ body{
     font-weight: bolder;
     margin-top: 50px;
     width: 50%;
-    height: 70px;
+    height: 20px;
     border-radius: 25px;
     margin-left: 25%;
     text-decoration: none;
@@ -210,6 +211,7 @@ body{
 @keyframes hover{
     50%{transform: translate(-5px,-5px);}
 }
+
 
 
 
