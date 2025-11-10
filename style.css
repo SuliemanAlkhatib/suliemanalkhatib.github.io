@@ -58,10 +58,10 @@ body{
     margin-top: 35px;
     
     display: flex;
-    width: 85%;
+    width: 80%;
     height: 10%;
     
-    margin-left: 15%;
+    margin-left: 20%;
     
 }
 .chapters a img{
@@ -211,6 +211,7 @@ body{
 @keyframes hover{
     50%{transform: translate(-5px,-5px);}
 }
+
 
 
 
