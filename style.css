@@ -184,7 +184,7 @@ body{
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
-    margin-top: 30px;
+    margin-top: 60px;
     width: 50%;
     height: 50px;
     text-decoration: none;
@@ -208,3 +208,4 @@ body{
 @keyframes hover{
     50%{transform: translate(-5px,-5px);}
 }
+
