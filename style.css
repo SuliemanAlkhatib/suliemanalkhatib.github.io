@@ -60,8 +60,8 @@ body{
     display: flex;
     width: 80%;
     height: 60%;
-    
-    margin-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
     
 }
 .chapters a img{
@@ -74,10 +74,10 @@ body{
    text-align: center;
    text-decoration: none;
    color: black;
-   margin-left: 0%;
+   margin-left: 5%;
    width: 20%;
    height: 100%;
-   margin-right: 20%;
+   margin-right: 5%;
    font-size: 25px;
    border: 2px solid ;
 }
@@ -211,6 +211,7 @@ body{
 @keyframes hover{
     50%{transform: translate(-5px,-5px);}
 }
+
 
 
 
