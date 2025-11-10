@@ -59,7 +59,7 @@ body{
     
     display: flex;
     width: 80%;
-    height: 20%;
+    height: 30%;
     margin-right: 10%;
     margin-left: 10%;
     
@@ -211,6 +211,7 @@ body{
 @keyframes hover{
     50%{transform: translate(-5px,-5px);}
 }
+
 
 
 
