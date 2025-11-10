@@ -11,7 +11,7 @@ body{
     background-color: hsl(0, 0%, 84%);
     font-size: 1.5em;
     margin: 0;
-    height: 100vh;
+    height: 50hv;
 }
 
 .wall{
@@ -211,6 +211,7 @@ body{
 @keyframes hover{
     50%{transform: translate(-5px,-5px);}
 }
+
 
 
 
